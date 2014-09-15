@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5419E5319C45B03009785FC /* lips3.png in Resources */ = {isa = PBXBuildFile; fileRef = B5419E5219C45B03009785FC /* lips3.png */; };
+		B5419E5519C4668D009785FC /* skoizIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = B5419E5419C4668D009785FC /* skoizIcon.png */; };
+		B5419E5719C46AB2009785FC /* ReSkoiz.png in Resources */ = {isa = PBXBuildFile; fileRef = B5419E5619C46AB2009785FC /* ReSkoiz.png */; };
+		E10149F719BF41390004A558 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E10149F619BF41390004A558 /* Foundation.framework */; };
+		E10149F919BF41390004A558 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E10149F819BF41390004A558 /* CoreGraphics.framework */; };
+		E10149FB19BF41390004A558 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E10149FA19BF41390004A558 /* UIKit.framework */; };
+		E1014A0119BF41390004A558 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E10149FF19BF41390004A558 /* InfoPlist.strings */; };
+		E1014A0319BF41390004A558 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1014A0219BF41390004A558 /* main.m */; };
+		E1014A0719BF41390004A558 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1014A0619BF41390004A558 /* AppDelegate.m */; };
+		E1014A0A19BF41390004A558 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1014A0819BF41390004A558 /* Main_iPhone.storyboard */; };
+		E1014A0D19BF41390004A558 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1014A0B19BF41390004A558 /* Main_iPad.storyboard */; };
+		E1014A1019BF41390004A558 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1014A0F19BF41390004A558 /* ViewController.m */; };
+		E1014A1219BF41390004A558 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1014A1119BF41390004A558 /* Images.xcassets */; };
+		E1014A1919BF41390004A558 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1014A1819BF41390004A558 /* XCTest.framework */; };
+		E1014A1A19BF41390004A558 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E10149F619BF41390004A558 /* Foundation.framework */; };
+		E1014A1B19BF41390004A558 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E10149FA19BF41390004A558 /* UIKit.framework */; };
+		E1014A2319BF41390004A558 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E1014A2119BF41390004A558 /* InfoPlist.strings */; };
+		E1014A2519BF41390004A558 /* WorkSureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1014A2419BF41390004A558 /* WorkSureTests.m */; };
+		E1014A2F19BF41C30004A558 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1014A2E19BF41C30004A558 /* QuartzCore.framework */; };
+		E1014A3119BF41CD0004A558 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1014A3019BF41CD0004A558 /* CoreImage.framework */; };
+		E1014A3519BF420B0004A558 /* people.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1014A3219BF420B0004A558 /* people.jpg */; };
+		E1014A3619BF420B0004A558 /* eye.png in Resources */ = {isa = PBXBuildFile; fileRef = E1014A3319BF420B0004A558 /* eye.png */; };
+		E1014A3719BF420B0004A558 /* mouth.png in Resources */ = {isa = PBXBuildFile; fileRef = E1014A3419BF420B0004A558 /* mouth.png */; };
+		E1014A3919BF57C90004A558 /* people2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E1014A3819BF57C90004A558 /* people2.jpg */; };
+		E155052119BFF90D005212FE /* forP.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E155052019BFF90D005212FE /* forP.jpg */; };
+		E155052319BFF9A7005212FE /* indyTest.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E155052219BFF9A7005212FE /* indyTest.jpg */; };
+		E156844719C1E1E60015F3EF /* appTitle.png in Resources */ = {isa = PBXBuildFile; fileRef = E156844319C1E1E60015F3EF /* appTitle.png */; };
+		E156844819C1E1E60015F3EF /* goButton.png in Resources */ = {isa = PBXBuildFile; fileRef = E156844419C1E1E60015F3EF /* goButton.png */; };
+		E156844919C1E1E60015F3EF /* goSkoiiz.png in Resources */ = {isa = PBXBuildFile; fileRef = E156844519C1E1E60015F3EF /* goSkoiiz.png */; };
+		E156844A19C1E1E60015F3EF /* uploadButton.png in Resources */ = {isa = PBXBuildFile; fileRef = E156844619C1E1E60015F3EF /* uploadButton.png */; };
+		E171761D19C07950000EA9AA /* eiei.png in Resources */ = {isa = PBXBuildFile; fileRef = E171761C19C07950000EA9AA /* eiei.png */; };
+		E1B960BE19C1A39000CEC5CD /* StartPage.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B960BD19C1A39000CEC5CD /* StartPage.m */; };
+		E1B960C019C1A58600CEC5CD /* presenter.png in Resources */ = {isa = PBXBuildFile; fileRef = E1B960BF19C1A58600CEC5CD /* presenter.png */; };
+		E1B960CA19C1B0FB00CEC5CD /* TS-Som tum -A Italic -NP.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1B960C219C1AE2700CEC5CD /* TS-Som tum -A Italic -NP.ttf */; };
+		E1B960CB19C1B0FB00CEC5CD /* TS-Som tum -A Shadow Italic-NP.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1B960C319C1AE2700CEC5CD /* TS-Som tum -A Shadow Italic-NP.ttf */; };
+		E1B960CC19C1B0FB00CEC5CD /* TS-Som tum -A Shadow-NP.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1B960C419C1AE2700CEC5CD /* TS-Som tum -A Shadow-NP.ttf */; };
+		E1B960CD19C1B0FB00CEC5CD /* TS-Som tum -A-NP.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1B960C519C1AE2700CEC5CD /* TS-Som tum -A-NP.ttf */; };
+		E1B960CE19C1B0FB00CEC5CD /* TS-Som tum -B Shadow-NP.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1B960C619C1AE2700CEC5CD /* TS-Som tum -B Shadow-NP.ttf */; };
+		E1B960CF19C1B0FB00CEC5CD /* TS-Som tum-B-NP.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1B960C719C1AE2700CEC5CD /* TS-Som tum-B-NP.ttf */; };
+		E1B960D019C1B0FB00CEC5CD /* TS-SOM TUM-np.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1B960C819C1AE2700CEC5CD /* TS-SOM TUM-np.ttf */; };
+		E1B960D119C1B0FB00CEC5CD /* useThisFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1B960C919C1AE2700CEC5CD /* useThisFont.ttf */; };
+		E1FFFDBC19C1C8FD00F37603 /* UploadPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = E1FFFDBB19C1C8FD00F37603 /* UploadPhoto.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E1014A1C19BF41390004A558 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E10149EB19BF41390004A558 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E10149F219BF41390004A558;
+			remoteInfo = WorkSure;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B5419E5219C45B03009785FC /* lips3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lips3.png; sourceTree = "<group>"; };
+		B5419E5419C4668D009785FC /* skoizIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skoizIcon.png; sourceTree = "<group>"; };
+		B5419E5619C46AB2009785FC /* ReSkoiz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ReSkoiz.png; sourceTree = "<group>"; };
+		E10149F319BF41390004A558 /* SkoiiZBeautyZ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkoiiZBeautyZ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E10149F619BF41390004A558 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E10149F819BF41390004A558 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E10149FA19BF41390004A558 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E10149FE19BF41390004A558 /* SkoiiZBeautyZ-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SkoiiZBeautyZ-Info.plist"; sourceTree = "<group>"; };
+		E1014A0019BF41390004A558 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E1014A0219BF41390004A558 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E1014A0419BF41390004A558 /* SkoiiZBeautyZ-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SkoiiZBeautyZ-Prefix.pch"; sourceTree = "<group>"; };
+		E1014A0519BF41390004A558 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E1014A0619BF41390004A558 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E1014A0919BF41390004A558 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		E1014A0C19BF41390004A558 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		E1014A0E19BF41390004A558 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E1014A0F19BF41390004A558 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E1014A1119BF41390004A558 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E1014A1719BF41390004A558 /* SkoiiZBeautyZTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkoiiZBeautyZTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1014A1819BF41390004A558 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E1014A2019BF41390004A558 /* SkoiiZBeautyZTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SkoiiZBeautyZTests-Info.plist"; sourceTree = "<group>"; };
+		E1014A2219BF41390004A558 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E1014A2419BF41390004A558 /* WorkSureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WorkSureTests.m; sourceTree = "<group>"; };
+		E1014A2E19BF41C30004A558 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E1014A3019BF41CD0004A558 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		E1014A3219BF420B0004A558 /* people.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = people.jpg; sourceTree = "<group>"; };
+		E1014A3319BF420B0004A558 /* eye.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eye.png; sourceTree = "<group>"; };
+		E1014A3419BF420B0004A558 /* mouth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mouth.png; sourceTree = "<group>"; };
+		E1014A3819BF57C90004A558 /* people2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = people2.jpg; sourceTree = "<group>"; };
+		E155052019BFF90D005212FE /* forP.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = forP.jpg; sourceTree = "<group>"; };
+		E155052219BFF9A7005212FE /* indyTest.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = indyTest.jpg; sourceTree = "<group>"; };
+		E156844319C1E1E60015F3EF /* appTitle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appTitle.png; sourceTree = "<group>"; };
+		E156844419C1E1E60015F3EF /* goButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = goButton.png; sourceTree = "<group>"; };
+		E156844519C1E1E60015F3EF /* goSkoiiz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = goSkoiiz.png; sourceTree = "<group>"; };
+		E156844619C1E1E60015F3EF /* uploadButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uploadButton.png; sourceTree = "<group>"; };
+		E171761C19C07950000EA9AA /* eiei.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eiei.png; sourceTree = "<group>"; };
+		E1B960BC19C1A39000CEC5CD /* StartPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartPage.h; sourceTree = "<group>"; };
+		E1B960BD19C1A39000CEC5CD /* StartPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartPage.m; sourceTree = "<group>"; };
+		E1B960BF19C1A58600CEC5CD /* presenter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = presenter.png; sourceTree = "<group>"; };
+		E1B960C219C1AE2700CEC5CD /* TS-Som tum -A Italic -NP.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TS-Som tum -A Italic -NP.ttf"; sourceTree = "<group>"; };
+		E1B960C319C1AE2700CEC5CD /* TS-Som tum -A Shadow Italic-NP.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TS-Som tum -A Shadow Italic-NP.ttf"; sourceTree = "<group>"; };
+		E1B960C419C1AE2700CEC5CD /* TS-Som tum -A Shadow-NP.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TS-Som tum -A Shadow-NP.ttf"; sourceTree = "<group>"; };
+		E1B960C519C1AE2700CEC5CD /* TS-Som tum -A-NP.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TS-Som tum -A-NP.ttf"; sourceTree = "<group>"; };
+		E1B960C619C1AE2700CEC5CD /* TS-Som tum -B Shadow-NP.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TS-Som tum -B Shadow-NP.ttf"; sourceTree = "<group>"; };
+		E1B960C719C1AE2700CEC5CD /* TS-Som tum-B-NP.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TS-Som tum-B-NP.ttf"; sourceTree = "<group>"; };
+		E1B960C819C1AE2700CEC5CD /* TS-SOM TUM-np.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TS-SOM TUM-np.ttf"; sourceTree = "<group>"; };
+		E1B960C919C1AE2700CEC5CD /* useThisFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = useThisFont.ttf; sourceTree = "<group>"; };
+		E1FFFDBA19C1C8FD00F37603 /* UploadPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UploadPhoto.h; sourceTree = "<group>"; };
+		E1FFFDBB19C1C8FD00F37603 /* UploadPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UploadPhoto.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E10149F019BF41390004A558 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1014A3119BF41CD0004A558 /* CoreImage.framework in Frameworks */,
+				E1014A2F19BF41C30004A558 /* QuartzCore.framework in Frameworks */,
+				E10149F919BF41390004A558 /* CoreGraphics.framework in Frameworks */,
+				E10149FB19BF41390004A558 /* UIKit.framework in Frameworks */,
+				E10149F719BF41390004A558 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1014A1419BF41390004A558 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1014A1919BF41390004A558 /* XCTest.framework in Frameworks */,
+				E1014A1B19BF41390004A558 /* UIKit.framework in Frameworks */,
+				E1014A1A19BF41390004A558 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E10149EA19BF41390004A558 = {
+			isa = PBXGroup;
+			children = (
+				E10149FC19BF41390004A558 /* SkoiiZBeautyZ */,
+				E1014A1E19BF41390004A558 /* SkoiiZBeautyZTests */,
+				E10149F519BF41390004A558 /* Frameworks */,
+				E10149F419BF41390004A558 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E10149F419BF41390004A558 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E10149F319BF41390004A558 /* SkoiiZBeautyZ.app */,
+				E1014A1719BF41390004A558 /* SkoiiZBeautyZTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E10149F519BF41390004A558 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1014A3019BF41CD0004A558 /* CoreImage.framework */,
+				E1014A2E19BF41C30004A558 /* QuartzCore.framework */,
+				E10149F619BF41390004A558 /* Foundation.framework */,
+				E10149F819BF41390004A558 /* CoreGraphics.framework */,
+				E10149FA19BF41390004A558 /* UIKit.framework */,
+				E1014A1819BF41390004A558 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E10149FC19BF41390004A558 /* SkoiiZBeautyZ */ = {
+			isa = PBXGroup;
+			children = (
+				E156844319C1E1E60015F3EF /* appTitle.png */,
+				E156844419C1E1E60015F3EF /* goButton.png */,
+				E156844519C1E1E60015F3EF /* goSkoiiz.png */,
+				E156844619C1E1E60015F3EF /* uploadButton.png */,
+				E1B960C119C1AE1300CEC5CD /* font */,
+				E1B960BF19C1A58600CEC5CD /* presenter.png */,
+				E171761C19C07950000EA9AA /* eiei.png */,
+				E155052219BFF9A7005212FE /* indyTest.jpg */,
+				E155052019BFF90D005212FE /* forP.jpg */,
+				E1014A3219BF420B0004A558 /* people.jpg */,
+				E1014A3819BF57C90004A558 /* people2.jpg */,
+				B5419E5219C45B03009785FC /* lips3.png */,
+				B5419E5619C46AB2009785FC /* ReSkoiz.png */,
+				E1014A3319BF420B0004A558 /* eye.png */,
+				E1014A3419BF420B0004A558 /* mouth.png */,
+				E1014A0519BF41390004A558 /* AppDelegate.h */,
+				E1014A0619BF41390004A558 /* AppDelegate.m */,
+				E1014A0819BF41390004A558 /* Main_iPhone.storyboard */,
+				E1FFFDBA19C1C8FD00F37603 /* UploadPhoto.h */,
+				E1FFFDBB19C1C8FD00F37603 /* UploadPhoto.m */,
+				E1B960BC19C1A39000CEC5CD /* StartPage.h */,
+				E1B960BD19C1A39000CEC5CD /* StartPage.m */,
+				E1014A0B19BF41390004A558 /* Main_iPad.storyboard */,
+				B5419E5419C4668D009785FC /* skoizIcon.png */,
+				E1014A0E19BF41390004A558 /* ViewController.h */,
+				E1014A0F19BF41390004A558 /* ViewController.m */,
+				E1014A1119BF41390004A558 /* Images.xcassets */,
+				E10149FD19BF41390004A558 /* Supporting Files */,
+			);
+			name = SkoiiZBeautyZ;
+			path = WorkSure;
+			sourceTree = "<group>";
+		};
+		E10149FD19BF41390004A558 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E10149FE19BF41390004A558 /* SkoiiZBeautyZ-Info.plist */,
+				E10149FF19BF41390004A558 /* InfoPlist.strings */,
+				E1014A0219BF41390004A558 /* main.m */,
+				E1014A0419BF41390004A558 /* SkoiiZBeautyZ-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E1014A1E19BF41390004A558 /* SkoiiZBeautyZTests */ = {
+			isa = PBXGroup;
+			children = (
+				E1014A2419BF41390004A558 /* WorkSureTests.m */,
+				E1014A1F19BF41390004A558 /* Supporting Files */,
+			);
+			name = SkoiiZBeautyZTests;
+			path = WorkSureTests;
+			sourceTree = "<group>";
+		};
+		E1014A1F19BF41390004A558 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1014A2019BF41390004A558 /* SkoiiZBeautyZTests-Info.plist */,
+				E1014A2119BF41390004A558 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E1B960C119C1AE1300CEC5CD /* font */ = {
+			isa = PBXGroup;
+			children = (
+				E1B960C219C1AE2700CEC5CD /* TS-Som tum -A Italic -NP.ttf */,
+				E1B960C319C1AE2700CEC5CD /* TS-Som tum -A Shadow Italic-NP.ttf */,
+				E1B960C419C1AE2700CEC5CD /* TS-Som tum -A Shadow-NP.ttf */,
+				E1B960C519C1AE2700CEC5CD /* TS-Som tum -A-NP.ttf */,
+				E1B960C619C1AE2700CEC5CD /* TS-Som tum -B Shadow-NP.ttf */,
+				E1B960C719C1AE2700CEC5CD /* TS-Som tum-B-NP.ttf */,
+				E1B960C819C1AE2700CEC5CD /* TS-SOM TUM-np.ttf */,
+				E1B960C919C1AE2700CEC5CD /* useThisFont.ttf */,
+			);
+			name = font;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E10149F219BF41390004A558 /* SkoiiZBeautyZ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1014A2819BF41390004A558 /* Build configuration list for PBXNativeTarget "SkoiiZBeautyZ" */;
+			buildPhases = (
+				E10149EF19BF41390004A558 /* Sources */,
+				E10149F019BF41390004A558 /* Frameworks */,
+				E10149F119BF41390004A558 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkoiiZBeautyZ;
+			productName = WorkSure;
+			productReference = E10149F319BF41390004A558 /* SkoiiZBeautyZ.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E1014A1619BF41390004A558 /* SkoiiZBeautyZTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1014A2B19BF41390004A558 /* Build configuration list for PBXNativeTarget "SkoiiZBeautyZTests" */;
+			buildPhases = (
+				E1014A1319BF41390004A558 /* Sources */,
+				E1014A1419BF41390004A558 /* Frameworks */,
+				E1014A1519BF41390004A558 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1014A1D19BF41390004A558 /* PBXTargetDependency */,
+			);
+			name = SkoiiZBeautyZTests;
+			productName = WorkSureTests;
+			productReference = E1014A1719BF41390004A558 /* SkoiiZBeautyZTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E10149EB19BF41390004A558 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					E10149F219BF41390004A558 = {
+						DevelopmentTeam = 5VSYW3XV2E;
+					};
+					E1014A1619BF41390004A558 = {
+						TestTargetID = E10149F219BF41390004A558;
+					};
+				};
+			};
+			buildConfigurationList = E10149EE19BF41390004A558 /* Build configuration list for PBXProject "SkoiiZBeautyZ" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E10149EA19BF41390004A558;
+			productRefGroup = E10149F419BF41390004A558 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E10149F219BF41390004A558 /* SkoiiZBeautyZ */,
+				E1014A1619BF41390004A558 /* SkoiiZBeautyZTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E10149F119BF41390004A558 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1B960CA19C1B0FB00CEC5CD /* TS-Som tum -A Italic -NP.ttf in Resources */,
+				E1B960CB19C1B0FB00CEC5CD /* TS-Som tum -A Shadow Italic-NP.ttf in Resources */,
+				E156844919C1E1E60015F3EF /* goSkoiiz.png in Resources */,
+				E1B960CC19C1B0FB00CEC5CD /* TS-Som tum -A Shadow-NP.ttf in Resources */,
+				E156844A19C1E1E60015F3EF /* uploadButton.png in Resources */,
+				B5419E5319C45B03009785FC /* lips3.png in Resources */,
+				E1B960CD19C1B0FB00CEC5CD /* TS-Som tum -A-NP.ttf in Resources */,
+				E1B960CE19C1B0FB00CEC5CD /* TS-Som tum -B Shadow-NP.ttf in Resources */,
+				E1B960CF19C1B0FB00CEC5CD /* TS-Som tum-B-NP.ttf in Resources */,
+				E1B960D019C1B0FB00CEC5CD /* TS-SOM TUM-np.ttf in Resources */,
+				B5419E5719C46AB2009785FC /* ReSkoiz.png in Resources */,
+				E1B960D119C1B0FB00CEC5CD /* useThisFont.ttf in Resources */,
+				E1B960C019C1A58600CEC5CD /* presenter.png in Resources */,
+				E156844819C1E1E60015F3EF /* goButton.png in Resources */,
+				E1014A0D19BF41390004A558 /* Main_iPad.storyboard in Resources */,
+				E171761D19C07950000EA9AA /* eiei.png in Resources */,
+				E155052119BFF90D005212FE /* forP.jpg in Resources */,
+				E1014A3919BF57C90004A558 /* people2.jpg in Resources */,
+				B5419E5519C4668D009785FC /* skoizIcon.png in Resources */,
+				E1014A1219BF41390004A558 /* Images.xcassets in Resources */,
+				E156844719C1E1E60015F3EF /* appTitle.png in Resources */,
+				E1014A0A19BF41390004A558 /* Main_iPhone.storyboard in Resources */,
+				E1014A3619BF420B0004A558 /* eye.png in Resources */,
+				E1014A3719BF420B0004A558 /* mouth.png in Resources */,
+				E1014A0119BF41390004A558 /* InfoPlist.strings in Resources */,
+				E1014A3519BF420B0004A558 /* people.jpg in Resources */,
+				E155052319BFF9A7005212FE /* indyTest.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1014A1519BF41390004A558 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1014A2319BF41390004A558 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E10149EF19BF41390004A558 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1014A1019BF41390004A558 /* ViewController.m in Sources */,
+				E1FFFDBC19C1C8FD00F37603 /* UploadPhoto.m in Sources */,
+				E1B960BE19C1A39000CEC5CD /* StartPage.m in Sources */,
+				E1014A0719BF41390004A558 /* AppDelegate.m in Sources */,
+				E1014A0319BF41390004A558 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1014A1319BF41390004A558 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1014A2519BF41390004A558 /* WorkSureTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1014A1D19BF41390004A558 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E10149F219BF41390004A558 /* SkoiiZBeautyZ */;
+			targetProxy = E1014A1C19BF41390004A558 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E10149FF19BF41390004A558 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1014A0019BF41390004A558 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E1014A0819BF41390004A558 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1014A0919BF41390004A558 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		E1014A0B19BF41390004A558 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1014A0C19BF41390004A558 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		E1014A2119BF41390004A558 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1014A2219BF41390004A558 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1014A2619BF41390004A558 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E1014A2719BF41390004A558 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1014A2919BF41390004A558 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WorkSure/SkoiiZBeautyZ-Prefix.pch";
+				INFOPLIST_FILE = "WorkSure/SkoiiZBeautyZ-Info.plist";
+				PRODUCT_NAME = SkoiiZBeautyZ;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E1014A2A19BF41390004A558 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WorkSure/SkoiiZBeautyZ-Prefix.pch";
+				INFOPLIST_FILE = "WorkSure/SkoiiZBeautyZ-Info.plist";
+				PRODUCT_NAME = SkoiiZBeautyZ;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E1014A2C19BF41390004A558 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WorkSure.app/WorkSure";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WorkSure/WorkSure-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WorkSureTests/SkoiiZBeautyZTests-Info.plist";
+				PRODUCT_NAME = SkoiiZBeautyZTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E1014A2D19BF41390004A558 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WorkSure.app/WorkSure";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WorkSure/WorkSure-Prefix.pch";
+				INFOPLIST_FILE = "WorkSureTests/SkoiiZBeautyZTests-Info.plist";
+				PRODUCT_NAME = SkoiiZBeautyZTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E10149EE19BF41390004A558 /* Build configuration list for PBXProject "SkoiiZBeautyZ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1014A2619BF41390004A558 /* Debug */,
+				E1014A2719BF41390004A558 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1014A2819BF41390004A558 /* Build configuration list for PBXNativeTarget "SkoiiZBeautyZ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1014A2919BF41390004A558 /* Debug */,
+				E1014A2A19BF41390004A558 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1014A2B19BF41390004A558 /* Build configuration list for PBXNativeTarget "SkoiiZBeautyZTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1014A2C19BF41390004A558 /* Debug */,
+				E1014A2D19BF41390004A558 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E10149EB19BF41390004A558 /* Project object */;
+}
