@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>53BAAB7C-04E1-419E-B68F-5EA4F75877E5</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SkoiiZBeautyZ</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>77BE6712-AD43-43E0-9A61-16D7CCC74410</key>
+		<string>https://github.com/benyafilm/AppProject.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SkoiiZBeautyZ.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>77BE6712-AD43-43E0-9A61-16D7CCC74410</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/benyafilm/AppProject.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>77BE6712-AD43-43E0-9A61-16D7CCC74410</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>77BE6712-AD43-43E0-9A61-16D7CCC74410</string>
+			<key>IDESourceControlWCCName</key>
+			<string>AppProject</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -57,20 +57,20 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ENp-3u-Hdb">
-                                <rect key="frame" x="27" y="152" width="270" height="270"/>
+                                <rect key="frame" x="27" y="123" width="270" height="270"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3ef-jT-RRn">
-                                <rect key="frame" x="27" y="152" width="270" height="270"/>
+                                <rect key="frame" x="27" y="123" width="270" height="270"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="appTitle.png" translatesAutoresizingMaskIntoConstraints="NO" id="9tm-EE-ked">
-                                <rect key="frame" x="17" y="67" width="291" height="77"/>
+                                <rect key="frame" x="17" y="37" width="291" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B4N-tj-y6e">
-                                <rect key="frame" x="90" y="447" width="175" height="51"/>
+                                <rect key="frame" x="102" y="503" width="175" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Back" image="ReSkoiz.png">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -80,6 +80,10 @@
                                     <segue destination="RgN-qV-ZCe" kind="push" id="uy3-WM-1m5"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5ES-Fy-z6E">
+                                <rect key="frame" x="27" y="401" width="270" height="94"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -87,12 +91,13 @@
                     <connections>
                         <outlet property="img" destination="ENp-3u-Hdb" id="yar-dg-pFl"/>
                         <outlet property="img2" destination="3ef-jT-RRn" id="0z8-4B-VbE"/>
+                        <outlet property="showResult" destination="5ES-Fy-z6E" id="M8x-dr-T2z"/>
                         <outlet property="uploadPic" destination="2ft-NE-jSs" id="keg-fX-HRl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1477" y="-107"/>
+            <point key="canvasLocation" x="1467" y="-107"/>
         </scene>
         <!--Upload Photo-->
         <scene sceneID="zlh-xy-O0x">
@@ -107,12 +112,12 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PcB-nV-o9Y">
-                                <rect key="frame" x="27" y="152" width="270" height="270"/>
+                                <rect key="frame" x="27" y="123" width="270" height="270"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2ft-NE-jSs">
-                                <rect key="frame" x="25" y="447" width="140" height="51"/>
+                                <rect key="frame" x="90" y="416" width="140" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Upload photo" image="uploadButton.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -122,7 +127,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ilL-pZ-9I2">
-                                <rect key="frame" x="173" y="447" width="154" height="51"/>
+                                <rect key="frame" x="97" y="480" width="154" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Go skoiiz" image="goSkoiiz.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -132,7 +137,7 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="appTitle.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ku1-hz-G5q">
-                                <rect key="frame" x="17" y="67" width="291" height="77"/>
+                                <rect key="frame" x="17" y="37" width="291" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>

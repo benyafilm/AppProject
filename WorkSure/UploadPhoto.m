@@ -89,6 +89,7 @@
 //        ViewController *nvc = [navController topViewController];
 //
         nvc.sourceImage=selectedImage; //imag2 is UIImage that globally declared in newViewController
+        nvc.level=[self getRandomNumberBetween:1 to:4];
         //[self pushViewController:nvc animated:YES];
     }
 }
@@ -104,6 +105,11 @@
 - (IBAction)uploadAction:(id)sender {
 
 
+}
+
+-(int)getRandomNumberBetween:(int)from to:(int)to {
+    
+    return (int)from + arc4random() % (to-from+1);
 }
 
 

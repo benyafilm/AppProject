@@ -23,8 +23,18 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-   
-    
+    NSLog(@"%i",_level);
+    if(_level==1){
+        [_showResult setImage:[UIImage imageNamed:@"expertSkoiz.png"]];
+    }else if(_level==2){
+        [_showResult setImage:[UIImage imageNamed:@"babySkoiz.png"]];
+    }else if(_level==3){
+        [_showResult setImage:[UIImage imageNamed:@"angelSkoiz.png"]];
+    }else if(_level==4){
+        [_showResult setImage:[UIImage imageNamed:@"interSkoiz.png"]];
+    }else if(_level==5){
+        [_showResult setImage:[UIImage imageNamed:@"hisoSkoiz.png"]];
+    }
     
     //This works better
       //sourceImage = [UIImage imageNamed:@"forP.jpg"];
@@ -40,6 +50,9 @@
     [self markFaces:_img];
     [_img2 setTransform:CGAffineTransformMakeScale(1, -1)];
     _img.hidden = YES;
+    
+    
+    
     
 
 }
@@ -111,8 +124,19 @@
             UIView* leftEyeView = [[UIView alloc] initWithFrame:CGRectMake(faceFeature.leftEyePosition.x-faceWidth*0.15, faceFeature.leftEyePosition.y-faceWidth*0.15, faceWidth*0.3, faceWidth*0.3)];
 //            UIImageView* eye=[[UIImageView alloc] initWithFrame:CGRectMake(faceFeature.leftEyePosition.x*0.5-faceWidth*0.05, faceFeature.leftEyePosition.y*0.48-faceWidth*0.05, faceWidth*0.15, faceWidth*0.15)];
             UIImageView* eye = [[UIImageView alloc] initWithFrame:CGRectMake((faceFeature.leftEyePosition.x-faceWidth*0.15)*0.5, (faceFeature.leftEyePosition.y-faceWidth*0.15)*0.5, (faceWidth*0.3)*0.5, (faceWidth*0.3)*0.5)];
-            [eye setImage:[UIImage imageNamed:@"eye.png"]];
+            if (_level==1){
+                [eye setImage:[UIImage imageNamed:@"test.png"]];
+            }else if(_level==2){
+                [eye setImage:[UIImage imageNamed:@"2reye.png"]];
+            }else if(_level==3){
+                [eye setImage:[UIImage imageNamed:@"3reye.png"]];
+            }else if(_level==4){
+                [eye setImage:[UIImage imageNamed:@"4leye.png"]];
+            }else if(_level==5){
+                [eye setImage:[UIImage imageNamed:@"5leye.png"]];
+            }
             
+            [eye setTransform:CGAffineTransformMakeScale(1, -1)];
             // change the background color of the eye view
             [leftEyeView setBackgroundColor:[[UIColor yellowColor] colorWithAlphaComponent:0.3]];
             // set the position of the leftEyeView based on the face
@@ -121,6 +145,7 @@
             leftEyeView.layer.cornerRadius = faceWidth*0.15;
             // add the view to the window
             //[self.window addSubview:leftEyeView];
+            
             [_img2 addSubview:eye];
         }
         
@@ -130,7 +155,20 @@
             UIView* leftEye = [[UIView alloc] initWithFrame:CGRectMake(faceFeature.rightEyePosition.x-faceWidth*0.15, faceFeature.rightEyePosition.y-faceWidth*0.15, faceWidth*0.3, faceWidth*0.3)];
 //            UIImageView* eye1=[[UIImageView alloc] initWithFrame:CGRectMake(faceFeature.rightEyePosition.x*0.5-faceWidth*0.05, faceFeature.rightEyePosition.y*0.48-faceWidth*0.05, faceWidth*0.15, faceWidth*0.15)];
             UIImageView* eye1 = [[UIImageView alloc] initWithFrame:CGRectMake((faceFeature.rightEyePosition.x-faceWidth*0.15)*0.5, (faceFeature.rightEyePosition.y-faceWidth*0.15)*0.5, (faceWidth*0.3)*0.5, (faceWidth*0.3)*0.5)];
-            [eye1 setImage:[UIImage imageNamed:@"eye.png"]];
+            if (_level==1){
+            [eye1 setImage:[UIImage imageNamed:@"1reye.png"]];
+            }else if(_level==2){
+                [eye1 setImage:[UIImage imageNamed:@"2reye.png"]];
+            }else if(_level==3){
+                [eye1 setImage:[UIImage imageNamed:@"3reye.png"]];
+            }else if(_level==4){
+                [eye1 setImage:[UIImage imageNamed:@"4reye.png"]];
+            }else if(_level==5){
+                [eye1 setImage:[UIImage imageNamed:@"5reye.png"]];
+            }
+
+            [eye1 setTransform:CGAffineTransformMakeScale(1, -1)];
+            
             
             // change the background color of the eye view
             [leftEye setBackgroundColor:[[UIColor redColor] colorWithAlphaComponent:0.3]];
@@ -149,7 +187,20 @@
             UIView* mouth = [[UIView alloc] initWithFrame:CGRectMake(faceFeature.mouthPosition.x-faceWidth*0.2, faceFeature.mouthPosition.y-faceWidth*0.2, faceWidth*0.4, faceWidth*0.4)];
 //            UIImageView* mouthPic=[[UIImageView alloc] initWithFrame:CGRectMake(faceFeature.mouthPosition.x*0.5-faceWidth*0.1, faceFeature.mouthPosition.y*0.48-faceWidth*0.1, faceWidth*0.25, faceWidth*0.15)];
             UIImageView* mouthPic = [[UIImageView alloc] initWithFrame:CGRectMake((faceFeature.mouthPosition.x-faceWidth*0.2)*0.5, (faceFeature.mouthPosition.y-faceWidth*0.2)*0.5, (faceWidth*0.4)*0.6, (faceWidth*0.4)*0.3)];
-            [mouthPic setImage:[UIImage imageNamed:@"lips3.png"]];
+            
+            //[mouthPic setImage:[UIImage imageNamed:@"lips3.png"]];
+            if (_level==1){
+                [mouthPic setImage:[UIImage imageNamed:@"lips3.png"]];
+            }else if(_level==2){
+                [mouthPic setImage:[UIImage imageNamed:@"2mouth.png"]];
+            }else if(_level==3){
+                [mouthPic setImage:[UIImage imageNamed:@"mouth3new.png"]];
+            }else if(_level==4){
+                [mouthPic setImage:[UIImage imageNamed:@"mouth4new.png"]];
+            }else if(_level==5){
+                [mouthPic setImage:[UIImage imageNamed:@"5mouth.png"]];
+            }
+            
             [mouthPic setTransform:CGAffineTransformMakeScale(1, -1)];
             // change the background color for the mouth to green
             [mouth setBackgroundColor:[[UIColor greenColor] colorWithAlphaComponent:0.3]];

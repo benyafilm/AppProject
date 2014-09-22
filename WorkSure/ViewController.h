@@ -16,5 +16,7 @@
 //@property (weak, nonatomic) IBOutlet UIButton *uploadPic;
 @property(nonatomic) BOOL *isSomethingEnabled;
 @property(nonatomic,strong) UIImage *sourceImage;
+@property(nonatomic) int level;
+@property (weak, nonatomic) IBOutlet UIImageView *showResult;
 
 @end

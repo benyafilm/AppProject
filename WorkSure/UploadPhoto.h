@@ -17,6 +17,6 @@
 
 @property (weak, nonatomic) IBOutlet UIButton *goSkoiiz;
 @property (nonatomic, strong) IBOutlet UIImage *selectedImage;
-
+//@property (nonatomic) int randomNum;
 
 @end
